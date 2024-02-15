@@ -1,0 +1,30 @@
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #171717;
+}
+
+.question{
+    margin: auto;
+    padding-left: 25px;
+    background-color: #303030;
+    border-radius: 25px;
+    width: 50vw;
+    height: 30vh;
+}
+
+.question h3{
+    margin-top: 5px;
+}
+
+input {
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Test Quiz",
+    "id": 1,
+    "questions": [{
+        "1": {
+            "question": "What is the capital of Egypt?",
+            "type": "MCQ",
+            "answers": [{
+                "Cairo": "Cairo",
+                "IDK": "IDK"
+            }],
+            "answer": "Cairo"
+        }
+    }]
+}
