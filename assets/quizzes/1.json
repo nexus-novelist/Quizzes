@@ -5,10 +5,10 @@
         "1": {
             "question": "What is the capital of Egypt?",
             "type": "MCQ",
-            "answers": [{
-                "Cairo": "Cairo",
-                "IDK": "IDK"
-            }],
+            "answers": [
+                "Cairo",
+                "IDK"
+            ],
             "answer": "Cairo"
         }
     }]
