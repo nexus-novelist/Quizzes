@@ -16,14 +16,18 @@ const questionTemplate = `<div class="question">
 </div>`;
 
 async function loadJson(){
-    const response = await fetch('./assets/quizzes/1.json');
+    const response = await fetch('https://nexus-novelist.github.io/Quizzes/assets/quizzes/1.json');
     const data = await response.json();
     return data;
 }
 
-function loadQuiz(){
+async function loadQuiz(){
     console.log("Loading quiz...");
-    console.log(loadJson());
+    const response = await fetch('https://nexus-novelist.github.io/Quizzes/assets/quizzes/1.json');
+    const data = await response.json().then((value) => {
+        document.getElementById('quiz-name').textContent += value.name;
+        document.getElementById('quiz-id').textContent += value.id;
+    });
 }
 
 function loadQuestion(){
